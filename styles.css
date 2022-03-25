@@ -1,0 +1,63 @@
+html,
+body {
+  background: #88bdbc;
+  font-family: "Red Hat Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20vh;
+  font-size: 3em;
+  margin-bottom: 5vh;
+  color: #112d32;
+}
+
+.body {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+  color: #112d32;
+}
+
+.links {
+  text-align: center;
+  display: inline;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links ul {
+  background: #254e58;
+  width: 50vw;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.links li {
+  display: inline;
+  margin-top: 20vh;
+  padding: 40px;
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.links ul li a {
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.links ul li a:hover {
+  color: #112d32;
+  background-color: white;
+}
