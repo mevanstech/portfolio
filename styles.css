@@ -21,6 +21,7 @@ header {
   box-shadow: 0px 5px 14px -4px #b9b9b9;
   display: grid;
   align-items: center;
+  min-width: 661px;
 }
 
 header span {
@@ -69,12 +70,12 @@ footer {
   border-top: solid 2px #d4bbcd;
   -webkit-box-shadow: 0px -5px 14px -4px #b9b9b9;
   box-shadow: 0px -5px 14px -4px #b9b9b9;
-  min-width: 400px;
+  min-width: 661px;
 }
 
 footer ul li {
   display: inline;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 a {
